@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      h1 {
+        text-align: center;
+      }
+      div {
+        display: flex;
+        justify-content: center;
+      }
+      form {
+        border-radius: 20px;
+        background-color: aqua;
+        padding: 20px;
+      }
+
+      input {
+        margin: 10px;
+        border: 1px solid rgb(201, 227, 228);
+        padding: 5px 50px;
+        width: 330px;
+      }
+      #myFile {
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tuyển dụng</h1>
+    <div>
+      <form action="">
+        <label for="">Họ và tên</label><br />
+        <input type="text" /><br />
+        <label for="">Email</label><br />
+        <input type="email" /><br />
+        <label for="">Số điện thọai</label><br />
+        <input type="tel" /><br />
+        <label for="">CV</label><br />
+        <input type="file" id="myFile" name="filename" /><br />
+        <label for="">Tin Nhắn</label><br />
+        <textarea name="" id="" cols="40" rows="5"></textarea><br />
+        <button style="padding: 2px 8px">Gửi</button>
+      </form>
+    </div>
+  </body>
+</html>
